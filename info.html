@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="D:\SIH\info.css">
+        
+    </head>
+        <div class="bg"><img src="D:\SIH\pics\2.png"></div>
+        <div class="slide">
+            <div class="sli">say hello to india's top doctors</div>
+            <div class="sli">book appointments to safely visit your doctor</div>
+            <div class="sli">you are in safe hands-experts in end to end care</div>
+            <div class="sli">1 lakh doctors-70,000 clinics and hospitals</div>
+        </div>
+        <form id="filter-form" class="drop">
+            <label for="city" class="city"><b>Select City:</b></label>
+            <select id="city" name="city" class="city1">
+                <option value="Pune">Pune</option>
+                <option value="Pimpri Chinchwad">Pimpri Chinchwad</option>
+                <option value="Kharadi">Kharadi</option>
+                <option value="Aundh">Aundh</option>
+                <option value="Pimple Saudagar">Pimple Saudagar</option>
+                <option value="Shivajinagar">Shivajinagar</option>
+                <option value="Pashan">Pashan</option>
+                <option value="Baner">Baner</option>
+                <option value="Moshi">Moshi</option>
+                <option value="Wakad">Wakad</option>
+                <option value="Hinjawadi">Hinjawadi</option>
+                <option value="Warje">Warje</option>
+                <option value="Kothrud">Kothrud</option>
+            </select>
+    
+            <label for="doctor-type" class="doc"><b>Select Doctor Type:</b></label>
+            <select id="doctor-type" name="doctor-type" class="doc1">
+                <option value="Dermatologist">Dermatologist</option>
+                <option value="Obstetrician">Obstetrician</option>
+                <option value="Gynecologist">Gynecologist</option>
+                <option value="Cardiologist">Cardiologist</option>
+                <option value="Dentist">Dentist</option>
+                <option value="Ophthalmologist">Ophthalmologist</option>
+                <option value="Cosmetologist">Cosmetologist</option>
+                <option value="Gastroenterologist">Gastroenterologist</option>
+                <option value="Orthopedist">Orthopedist</option>
+                <option value="Hematologist">Hematologist</option>
+                <option value="Homoeopath">Homoeopath </option>
+                <option value="General Physician">General Physician</option>
+                <option value="Ayurveda">Ayurveda</option>
+            </select>
+    
+            <button type="submit" class="submit">Submit</button>
+        </form>
+    
+        <table id="doctor-table">
+            <thead>
+                <tr>
+                    <th>Name of Doctor</th>
+                    <th>Details</th>
+                    <th>Appointment</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table rows will be dynamically generated here -->
+            </tbody>
+        </table>
+    
+        <!-- Details Modal -->
+        <div id="details-modal" class="modal">
+            <div class="modal-content">
+                <h2>Doctor Details</h2>
+                <p id="doctor-details"></p>
+                <button class="btn" id="close-modal">Close</button>
+            </div>
+        </div>
+    
+        <!-- Appointment Modal -->
+        <div id="appointment-modal" class="modal">
+            <div class="modal-content">
+                <h2>Doctor Appointment</h2>
+                <p id="appointment-details"></p>
+                <button class="btn" id="close-appointment-modal">Close</button>
+            </div>
+        </div>
+        <script src="info.js"></script>
+        <div class="bot">
+                <h1>Consult top doctors online for any health concern</h1>
+                <h3>Private online consultations with verified doctors in all specialists</h3>
+                <div class="vc">
+                    <p>Free Consultation by Video Conference</p>
+                    <a href="https://meet.google.com"><img src="D:\SIH\pics\vc.png" height="40" weight="40"></a>
+                </div>
+        </div>
+    </body>
+</html>

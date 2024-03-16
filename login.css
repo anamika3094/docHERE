@@ -1,0 +1,49 @@
+.bg
+{
+    position: fixed;
+    margin-top: -2%;
+    margin-left: -0.5%;
+}
+form
+{
+    background-color:rgb(182, 197, 236);
+    position: absolute;
+    border: 2px solid black;
+    padding: 40px 20px;
+    margin-top:15%;
+    margin-left: 20%;
+    height: 40%;
+    width: 30%;
+    font-size: 20px;
+    background-position: center;
+}
+
+input[type=text], input[type=password]
+{
+    width: 100%;
+    padding: 8px;
+    margin: 2px 0 15px 0;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus 
+{
+    background-color: #ddd;
+    outline: none;
+}
+  
+.submit
+{
+    
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 17px;
+}
+.submit:hover 
+{
+    opacity: 1;
+}

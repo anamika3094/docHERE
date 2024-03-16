@@ -1,0 +1,186 @@
+body
+{
+    background-image: url("D\SIH\pics\bg2.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.bg
+{
+    margin-left:-7px;
+    margin-bottom: 0px;
+    margin-top: -8px;
+}
+.form
+{
+    height: 400px;
+    padding: 0px 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 3%;
+    top:5%;
+    width: 480px;
+}
+h1{
+    font-size: 50px;
+}
+.ii
+{
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    margin: 40px;
+    max-width: 300px;
+    padding: 20px;
+    background-color: white;
+}
+input[type=text], input[type=password]
+{
+    width: 100%;
+    padding: 11px;
+    margin: 5px 0 15px 0;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus 
+{
+    background-color: #ddd;
+    outline: none;
+}
+  
+.submit
+{
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 17px;
+}
+.submit:hover 
+{
+    opacity: 1;
+}
+
+.sin
+{  
+    margin-left: 100px;
+    position: relative;
+    font-size: 13px;
+    align-content: center;
+}
+.slider-container {
+    width: 1390px;
+    height: 200px;
+    margin-left: -2%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220, 226, 245);
+    color: #000;
+    position: absolute;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide p {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.prev
+{
+    margin-left: 48%;
+    padding: 5px 5px;
+    border-radius: 50%;
+}
+.next
+{
+    padding: 5px 5px;
+    border-radius: 50%;
+}
+
+footer{
+    background-color: #000;
+    position: relative;
+    top: 3%;
+    margin-left: -84px;
+    color:#fff;
+    height: 35%;
+    width: 110%;
+    display: inline-block;
+}
+
+footer ul{
+    color: #fff;
+    display: inline-block;
+    list-style: none;
+   
+}
+
+.ul1 li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 110px;
+    font-size: 25px;
+}
+
+.ul2 {
+    color: gray;
+    position: absolute;
+    margin-left: -82%;
+    top: 18%;
+}
+
+
+.ul3 {
+    color: gray;
+    position: absolute;
+    margin-left: -61%;
+    top: 18%;
+}
+
+.ul4 {
+    color: gray;
+    position: absolute;
+    margin-left: -37%;
+    top: 18%;
+}
+
+.ul5 {
+    color: gray;
+    position: absolute;
+    margin-left:-14%;
+    top: 17%;
+}
+
+
+.hi{
+    color: transparent;
+    border: 1px solid #fff;
+    padding: 0px 300px;
+    width: 80%;
+    height: 0%;
+    top: 160px;
+    position: absolute;
+}
+.right{
+    margin-left: -220px;
+    color: #fff;
+    margin-top: 1px;
+}
+
+.lo{
+    margin-top: -32px;
+    margin-left: 60%;    
+    letter-spacing: 20px;
+}

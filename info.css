@@ -1,0 +1,141 @@
+.bg
+{
+    margin-top: -2%;
+    margin-left: -1%;
+    position: relative;
+}
+
+
+.slide{
+    position: absolute;
+    font-family: montserrat,sans-serif;
+    color:#496de0;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    border:2px solid #496de0;
+    transform: translate(-50%,-50%);
+    background:#fff;
+    padding: 0 0px;
+    width: 900px;
+    height: 60px;
+    overflow: hidden;
+}
+.sli{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    line-height: 60px;
+}
+.sli:first-child{
+    animation: anim 12s infinite;
+}
+@keyframes anim{
+    0%{
+        margin-top: 0;
+    }
+    16%{
+        margin-top: -60;
+    }
+    33%{
+        margin-top: -120;
+    }
+    50%{
+        margin-top: -180;
+    }
+    66%{
+        margin-top: -120;
+    }
+    32%{
+        margin-top: -60;
+    }
+    100%{
+        margin-top: 0;
+    }
+}
+.drop
+{
+    position: absolute;
+    margin-top: -32%;
+    margin-left: 23%;
+    font-size: 24px;
+}
+.doc1
+{
+    font-size: 18px;
+}
+.city1
+{
+    font-size: 18px;
+}
+.submit
+{
+
+    font-size: 16px;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+table, th, td {
+    border: 1px solid #25648d;
+    position: relative;
+    margin-top: -29%;
+    margin-left: 17%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: transparent;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.bot
+{
+    margin-top: 10%;
+    position: relative;
+    margin-left: 18%;
+}
+.vc
+{
+    margin-left: 70%;
+    margin-top: -10%;
+    background-color: #b7c3e9;
+    width: 20%;
+    font-size: 20px;
+    padding: 0px 6px;
+    border: 1px solid #496de0;
+}
